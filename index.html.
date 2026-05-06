@@ -1,53 +1,41 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<link rel="sitemap" type="application/xml" title="Sitemap" href="/Athar-al-walda-/sitemap.xml" />
     <meta charset="UTF-8">
-    <meta name="description" content="قناة أثر الوالدة - محتوى هادف على واتساب">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>أثر الوالدة | قناة واتساب</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; max-width: 400px; }
-        h1 { color: #075E54; margin-bottom: 10px; }
-        p { color: #666; line-height: 1.6; }
-        .btn { background-color: #25D366; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; display: inline-block; margin-top: 25px; transition: 0.3s; }
-        .btn:hover { background-color: #128C7E; transform: scale(1.05); }
+        .card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; max-width: 400px; width: 90%; }
+        h1 { color: #075E54; margin-bottom: 15px; font-size: 32px; }
+        p { color: #4a4a4a; line-height: 1.6; font-size: 18px; margin-bottom: 30px; }
+        /* هذا هو كود الزر الذي كان مفقوداً */
+        .btn-whatsapp { 
+            background-color: #25D366; 
+            color: white; 
+            padding: 18px 35px; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-weight: bold; 
+            display: inline-block; 
+            font-size: 20px; 
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+        }
+        .btn-whatsapp:hover { 
+            background-color: #128C7E; 
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+        }
     </style>
 </head>
 <body>
     <div class="card">
         <h1>أثر الوالدة</h1>
-        <p>مرحباً بك في المنصة الرسمية لقناة أثر الوالدة. انضم إلينا على واتساب لتصلك آخر التحديثات والمحتوى الحصري.</p>
-        <!-- ضع رابط قناتك الحقيقي مكان الرابط أدناه -->
-        <a href="https://whatsapp.com/channel/YOUR_CHANNEL_ID" class="btn">الانضمام للقناة الآن</a>
+        <p>مرحباً بك في المنصة الرسمية لقناة أثر الوالدة. انضم إلينا لتصلك آخر التحديثات والمحتوى الهادف.</p>
+        
+        <!-- رابط الانضمام الفعلي -->
+        <a href="https://whatsapp.com/channel/0029VaDPn9X8PgsIdC0Lms3W" class="btn-whatsapp">الانضمام للقناة الآن</a>
     </div>
 </body>
 </html>
-انزل للأسفل واضغط على Commit changes مرتين لحفظ الملف.
-
-الخطوة الثالثة: تفعيل الرابط (GitHub Pages)
-الآن سنحول هذه الملفات إلى موقع ويب حقيقي.
-
-من أعلى الصفحة داخل المستودع، اضغط على تبويب Settings.
-
-من القائمة الجانبية اليسرى، اضغط على Pages.
-
-تحت قسم Build and deployment، تأكد أن المصدر هو Deploy from a branch.
-
-في خانة Branch، اختر main ثم اضغط Save.
-
-انتظر دقيقة واحدة، ثم قم بتحديث الصفحة (Refresh)؛ سيظهر لك شريط ملون في الأعلى مكتوب فيه:
-
-"Your site is live at: https://[username].github.io/athar-al-walda/"
-
-الخطوة الرابعة: الأرشفة في جوجل (SEO)
-لكي يظهر الرابط في محرك البحث:
-
-الكلمات المفتاحية: لقد وضعت لك في الكود أعلاه meta description وهذا يساعد جوجل في فهم محتوى الصفحة.
-
-النشر: قم بنشر هذا الرابط الجديد في وصف القناة على واتساب وفي حسابات التواصل. كلما زادت الزيارات، زادت سرعة ظهورك في نتائج البحث.
-
-ملاحظة من "المكتب":
-بما أنني أدير لك التقارير والبيانات، أنصحك مستقبلاً بربط هذا الموقع بـ Google Search Console (مجاني) لمراقبة كم شخصاً بحث عن القناة ووصل إليها عبر جوجل.
-
-هل تريد مني تعديل الألوان لتناسب شعار "أثر الوالدة" الخاص بك؟
