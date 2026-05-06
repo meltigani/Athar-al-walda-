@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>أثر الوالدة | المركز الرقمي</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #f8f9fa; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .office-card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); text-align: center; max-width: 450px; width: 90%; border-top: 5px solid #075E54; }
-        h1 { color: #202124; margin-bottom: 10px; }
-        .btn { display: block; padding: 15px; margin: 12px 0; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 18px; transition: 0.3s; }
-        .whatsapp-btn { background-color: #25D366; color: white; }
-        .quran-btn { background-color: #34495e; color: white; }
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .office-card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; max-width: 400px; width: 90%; border-top: 6px solid #075E54; }
+        h1 { color: #1c1e21; margin-bottom: 10px; }
+        .btn { display: block; padding: 15px; margin: 15px 0; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 18px; transition: 0.3s; }
+        .btn-whatsapp { background-color: #25D366; color: white; }
+        .btn-quran { background-color: #34495e; color: white; }
     </style>
 </head>
 <body>
     <div class="office-card">
         <h1>أثر الوالدة</h1>
         <p>بوابة المحتوى الهادف والبحث القرآني</p>
-        <!-- رابط الانضمام للقناة -->
-        <a href="https://whatsapp.com/channel/0029VaDPn9X8PgsIdC0Lms3W" class="btn whatsapp-btn">انضم الآن للقناة</a>
-        <!-- رابط الباحث القرآني -->
-        <a href="https://tafsir.app/" target="_blank" class="btn quran-btn">الباحث القرآني</a>
+        <a href="https://whatsapp.com/channel/0029VaDPn9X8PgsIdC0Lms3W" class="btn btn-whatsapp">انضم الآن للقناة</a>
+        <a href="https://tafsir.app/" target="_blank" class="btn btn-quran">الباحث القرآني</a>
     </div>
 </body>
 </html>
