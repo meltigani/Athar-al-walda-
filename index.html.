@@ -3,37 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>أثر الوالدة | Athar Alwalda</title>
-    <!-- Google Fonts for professional typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        :root { --primary-color: #1b4332; --gold-accent: #d4af37; --light-bg: #f8f9fa; }
-        body { font-family: 'Tajawal', sans-serif; margin: 0; background-color: var(--light-bg); }
-        
-        /* Navigation Bar */
-        nav { background: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .logo { font-family: 'Amiri', serif; font-size: 1.8rem; color: var(--primary-color); font-weight: bold; }
+    
+    <!-- محرك البحث: هذه الأسطر هي التي تجعل Google يجدك -->
+    <title>أثر الوالدة | المكتبة الإسلامية الشاملة</title>
+    <meta name="description" content="موقع أثر الوالدة: صدقة جارية تضم كتب الإمام الغزالي، مدارج السالكين، الباحث القرآني، والأربعين النووية.">
+    <meta name="keywords" content="أثر الوالدة, كتب الغزالي, مدارج السالكين, الأذكار, الباحث القرآني">
 
-        /* Hero Section */
-        header { background: linear-gradient(rgba(27,67,50,0.8), rgba(27,67,50,0.8)), url('https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=2070') center/cover;
-                 height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; }
-        
-        .btn { background: var(--gold-accent); color: #222; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: 0.3s; }
-        .btn:hover { background: white; color: var(--primary-color); }
+    <!-- الخطوط والأيقونات -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --emerald: #064e3b;
+            --gold: #c5a059;
+            --bg: #f9f7f2;
+        }
+
+        body { font-family: 'Tajawal', sans-serif; margin: 0; background-color: var(--bg); color: #333; }
+
+        header { 
+            background: var(--emerald); 
+            color: white; 
+            padding: 80px 20px; 
+            text-align: center; 
+            border-bottom: 8px solid var(--gold);
+        }
+
+        header h1 { font-family: 'Amiri', serif; font-size: 4rem; margin: 0; }
+
+        .container { 
+            max-width: 1200px; 
+            margin: 40px auto; 
+            padding: 0 20px; 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 25px; 
+        }
+
+        .card { 
+            background: white; 
+            border-radius: 20px; 
+            padding: 35px 20px; 
+            text-align: center; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+            border: 1px solid #eee;
+            transition: 0.3s ease;
+        }
+
+        .card:hover { transform: translateY(-10px); border-color: var(--gold); }
+
+        /* الأيقونات المستديرة */
+        .icon-circle { 
+            width: 100px; height: 100px; 
+            background-color: var(--bg); 
+            border: 3px solid var(--gold);
+            border-radius: 50%; 
+            display: flex; align-items: center; justify-content: center; 
+            margin: 0 auto 20px;
+            font-size: 2.5rem; color: var(--emerald);
+            transition: 0.3s;
+        }
+
+        .card:hover .icon-circle { background-color: var(--emerald); color: white; }
+
+        .btn { 
+            display: inline-block; background: var(--emerald); color: white; 
+            padding: 12px 30px; border-radius: 50px; text-decoration: none; 
+            font-weight: bold; margin-top: 20px;
+        }
+
+        .btn:hover { background: var(--gold); color: #000; }
+
+        footer { text-align: center; padding: 40px; color: #666; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
-    <nav>
-        <div class="logo">أثر الوالدة</div>
-        <div>Professional Islamic Library</div>
-    </nav>
-
     <header>
-        <h1>مرحباً بكم في أثر الوالدة</h1>
-        <p>بوابتكم للمراجع الإسلامية الموثوقة والعلوم النافعة</p>
-        <a href="#links" class="btn">تصفح المكتبة</a>
+        <h1>أثر الوالدة</h1>
+        <p>موسوعة التراث الإسلامي والمراجع الموثوقة</p>
     </header>
+
+    <div class="container">
+        <!-- الباحث القرآني -->
+        <div class="card">
+            <div class="icon-circle"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <h3>الباحث القرآني</h3>
+            <p>أدوات متطورة للبحث في الآيات والتفاسير.</p>
+            <a href="https://furqan.co" target="_blank" class="btn">ابدأ البحث</a>
+        </div>
+
+        <!-- كتب الإمام الغزالي -->
+        <div class="card">
+            <div class="icon-circle"><i class="fa-solid fa-book"></i></div>
+            <h3>كتب الإمام الغزالي</h3>
+            <p>مجموعة مؤلفات حجة الإسلام الإمام الغزالي.</p>
+            <a href="https://waqfeya.net/category.php?id=83" target="_blank" class="btn">تصفح الكتب</a>
+        </div>
+
+        <!-- مدارج السالكين -->
+        <div class="card">
+            <div class="icon-circle"><i class="fa-solid fa-feather"></i></div>
+            <h3>مدارج السالكين</h3>
+            <p>تهذيب وتحقيق كتاب ابن القيم الجوزية.</p>
+            <a href="https://waqfeya.net/book.php?bid=1454" target="_blank" class="btn">قراءة الكتاب</a>
+        </div>
+
+        <!-- الأربعين النووية -->
+        <div class="card">
+            <div class="icon-circle"><i class="fa-solid fa-scroll"></i></div>
+            <h3>الأربعين النووية</h3>
+            <p>أهم الأحاديث النبوية التي تقوم عليها قواعد الدين.</p>
+            <a href="https://sunnah.com/nawawi40" target="_blank" class="btn">تصفح الأحاديث</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 موقع أثر الوالدة | جميع الحقوق محفوظة
+    </footer>
 
 </body>
 </html>
