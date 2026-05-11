@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- محرك البحث: هذه الأسطر هي التي تجعل Google يجدك -->
+    <!-- هذه الأسطر هي "مفتاح" ظهورك في Google -->
     <title>أثر الوالدة | المكتبة الإسلامية الشاملة</title>
-    <meta name="description" content="موقع أثر الوالدة: صدقة جارية تضم كتب الإمام الغزالي، مدارج السالكين، الباحث القرآني، والأربعين النووية.">
+    <meta name="description" content="منصة أثر الوالدة: تضم كتب الإمام الغزالي، مدارج السالكين، الباحث القرآني، والأربعين النووية.">
     <meta name="keywords" content="أثر الوالدة, كتب الغزالي, مدارج السالكين, الأذكار, الباحث القرآني">
 
     <!-- الخطوط والأيقونات -->
@@ -15,12 +15,18 @@
 
     <style>
         :root {
-            --emerald: #064e3b;
-            --gold: #c5a059;
-            --bg: #f9f7f2;
+            --emerald: #064e3b; /* الأخضر الإسلامي */
+            --gold: #c5a059;    /* الذهبي */
+            --bg: #fdfcf8;      /* خلفية مريحة للعين */
         }
 
-        body { font-family: 'Tajawal', sans-serif; margin: 0; background-color: var(--bg); color: #333; }
+        body { 
+            font-family: 'Tajawal', sans-serif; 
+            margin: 0; 
+            background-color: var(--bg); 
+            color: #333; 
+            line-height: 1.8;
+        }
 
         header { 
             background: var(--emerald); 
@@ -43,25 +49,25 @@
 
         .card { 
             background: white; 
-            border-radius: 20px; 
-            padding: 35px 20px; 
+            border-radius: 25px; 
+            padding: 40px 20px; 
             text-align: center; 
             box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
             border: 1px solid #eee;
-            transition: 0.3s ease;
+            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .card:hover { transform: translateY(-10px); border-color: var(--gold); }
 
-        /* الأيقونات المستديرة */
+        /* الأيقونات المستديرة الاحترافية */
         .icon-circle { 
-            width: 100px; height: 100px; 
+            width: 110px; height: 110px; 
             background-color: var(--bg); 
             border: 3px solid var(--gold);
-            border-radius: 50%; 
+            border-radius: 50%; /* التحويل لشكل دائري */
             display: flex; align-items: center; justify-content: center; 
-            margin: 0 auto 20px;
-            font-size: 2.5rem; color: var(--emerald);
+            margin: 0 auto 25px;
+            font-size: 3rem; color: var(--emerald);
             transition: 0.3s;
         }
 
@@ -69,28 +75,28 @@
 
         .btn { 
             display: inline-block; background: var(--emerald); color: white; 
-            padding: 12px 30px; border-radius: 50px; text-decoration: none; 
-            font-weight: bold; margin-top: 20px;
+            padding: 14px 40px; border-radius: 50px; text-decoration: none; 
+            font-weight: bold; margin-top: 25px;
         }
 
         .btn:hover { background: var(--gold); color: #000; }
 
-        footer { text-align: center; padding: 40px; color: #666; font-size: 0.9rem; }
+        footer { text-align: center; padding: 60px; color: #666; font-size: 1rem; }
     </style>
 </head>
 <body>
 
     <header>
         <h1>أثر الوالدة</h1>
-        <p>موسوعة التراث الإسلامي والمراجع الموثوقة</p>
+        <p>صدقة جارية وموسوعة المراجع الإسلامية الموثوقة</p>
     </header>
 
     <div class="container">
         <!-- الباحث القرآني -->
         <div class="card">
-            <div class="icon-circle"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="icon-circle"><i class="fa-solid fa-magnifying-glass-quran"></i></div>
             <h3>الباحث القرآني</h3>
-            <p>أدوات متطورة للبحث في الآيات والتفاسير.</p>
+            <p>أدوات متطورة للبحث في آيات وتفاسير القرآن الكريم.</p>
             <a href="https://furqan.co" target="_blank" class="btn">ابدأ البحث</a>
         </div>
 
@@ -98,15 +104,15 @@
         <div class="card">
             <div class="icon-circle"><i class="fa-solid fa-book"></i></div>
             <h3>كتب الإمام الغزالي</h3>
-            <p>مجموعة مؤلفات حجة الإسلام الإمام الغزالي.</p>
-            <a href="https://waqfeya.net/category.php?id=83" target="_blank" class="btn">تصفح الكتب</a>
+            <p>مجموعة مؤلفات حجة الإسلام الإمام الغزالي رحمه الله.</p>
+            <a href="https://waqfeya.net/category.php?id=83" target="_blank" class="btn">تصفح المكتبة</a>
         </div>
 
         <!-- مدارج السالكين -->
         <div class="card">
-            <div class="icon-circle"><i class="fa-solid fa-feather"></i></div>
+            <div class="icon-circle"><i class="fa-solid fa-feather-pointed"></i></div>
             <h3>مدارج السالكين</h3>
-            <p>تهذيب وتحقيق كتاب ابن القيم الجوزية.</p>
+            <p>تهذيب وتحقيق كتاب مدارج السالكين لابن القيم.</p>
             <a href="https://waqfeya.net/book.php?bid=1454" target="_blank" class="btn">قراءة الكتاب</a>
         </div>
 
@@ -114,7 +120,7 @@
         <div class="card">
             <div class="icon-circle"><i class="fa-solid fa-scroll"></i></div>
             <h3>الأربعين النووية</h3>
-            <p>أهم الأحاديث النبوية التي تقوم عليها قواعد الدين.</p>
+            <p>أصول الدين وقواعده في أحاديث سيد المرسلين.</p>
             <a href="https://sunnah.com/nawawi40" target="_blank" class="btn">تصفح الأحاديث</a>
         </div>
     </div>
