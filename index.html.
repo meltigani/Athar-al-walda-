@@ -61,7 +61,7 @@
 
         /* الأيقونات المستديرة الاحترافية */
         .icon-circle { 
-            width: 110px; height: 110px; 
+            width: 80px; height: 110px; 
             background-color: var(--bg); 
             border: 3px solid var(--gold);
             border-radius: 50%; /* التحويل لشكل دائري */
